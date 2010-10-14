@@ -3,7 +3,7 @@
 Info
 ----------
 
-This is a WIP soap client for node.js. Not quite functional yet.
+    This is a WIP soap client for node.js. Not quite functional yet.
 
 API Goals
 ----------
@@ -31,5 +31,5 @@ API Goals
 Dependencies
 -------------
 
-Depends on libxmljs right now which I have NOT included here.
-http://github.com/polotek/libxmljs
+* http://github.com/ry/node
+* http://github.com/polotek/libxmljs
