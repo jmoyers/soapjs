@@ -3,7 +3,14 @@
 Info
 ----------
 
-    This is a WIP soap client for node.js. Not quite functional yet.
+* Create functions at runtime with optional param checking
+* Not quite funtional yet
+* Contact: jmoyers@gmail.com
+* Focusing on a specific wsdl for now (with complex types)
+* TODO: local file caching for wsdl, loading wsdl from fs, support per operation soapAction
+
+Current status: the below example creates xml with a proper soap envelope, getting a 400 (malformed), from the server I'm testing with. Suspect namespacing on operation tags.
+
 
 API Goals
 ----------
