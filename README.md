@@ -38,5 +38,5 @@ API Goals
 Dependencies
 -------------
 
-* http://github.com/ry/node
-* http://github.com/polotek/libxmljs
+* ry/node
+* polotek/libxmljs
