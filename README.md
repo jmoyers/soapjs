@@ -1,4 +1,4 @@
-# soapjs
+# soapjs - A client to interact with soap web services in node.js
 
 Info
 ----------
