@@ -1,10 +1,13 @@
-##soapjs
+soapjs
+======
 
-# Info
+Info
+----
 
 This is a WIP soap client for node.js. Not quite functional yet.
 
-# API goals:
+API Goals
+----------
 
     // Download the wsdl, and create your functions at runtime
     var c = soap.createClient( wsdl );
@@ -26,7 +29,8 @@ This is a WIP soap client for node.js. Not quite functional yet.
         c.getTypes();
     });
 
-# Dependencies
+Dependencies
+-------------
 
 Depends on libxmljs right now which I have NOT included here.
 http://github.com/polotek/libxmljs
