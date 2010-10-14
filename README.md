@@ -3,8 +3,6 @@
 ## Info
 
 This is a WIP soap client for node.js. Not quite functional yet.
-Focusing on a specific type of wsdl for now, with complex types.
-Not really working off the spec, so I could be misinterpreting things.
 
 ## API goals:
 
