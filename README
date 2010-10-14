@@ -1,0 +1,28 @@
+This is a WIP soap client for node.js. Not quite functional yet.
+Focusing on a specific type of wsdl for now, with complex types.
+Not really working off the spec, so I could be misinterpreting things.
+
+Goal is to create an api like this:
+
+// Download the wsdl, and create your functions at runtime
+var c = soap.createClient( wsdl );
+
+// Emit when we're done with instantiation from wsdl
+c.on( "ready", function(){
+    
+    // Call a method from the wsdl, which is created at runtime
+    // It will be optionally typed (using the wsdl as the basis)
+    c.GetSUID({
+        "userid": "jmoyers@gmail.com"
+    }).on("response", function( resp ){
+        console.log( "Response from server:" );
+        console.log( resp );
+    });
+    
+    // For debugging in general
+    c.getFunctions( showParams );
+    c.getTypes();
+});
+
+Depends on libxmljs right now which I have NOT included here.
+http://github.com/polotek/libxmljs
