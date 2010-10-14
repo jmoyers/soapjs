@@ -1,5 +1,4 @@
-soapjs
-==========
+# soapjs
 
 Info
 ----------
