@@ -46,3 +46,4 @@ Dependencies
 
 * [ry/node](http://github.com/ry/node)
 * [polotek/libxmljs](http://github.com/polotek/libxmljs)
+* [danwrong/restler](http://github.com/danwrong/Restler/)
