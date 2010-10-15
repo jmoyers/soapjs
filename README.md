@@ -7,9 +7,15 @@ Info
 * Not quite funtional yet
 * Contact: jmoyers@gmail.com
 * Focusing on a specific wsdl for now (with complex types)
-* TODO: local file caching for wsdl, loading wsdl from fs, support per operation soapAction
+* TODO:
+** local file caching for wsdl,
+** loading wsdl from fs,
+** support per operation soapAction,
+** http basic auth,
+** printing the signature of a given method after parse
+** testing on a wsdl other than the one I'm using ;-)
 
-Current status: the below example creates xml with a proper soap envelope, getting a 400 (malformed), from the server I'm testing with. Suspect namespacing on operation tags.
+Current status: Basically working with the one wsdl sample I'm using. Next steps are to standardize on restler, add a signature fetch and display function, add http basic auth support
 
 
 API Goals
