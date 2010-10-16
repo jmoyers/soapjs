@@ -3,20 +3,17 @@
 Info
 ----------
 
+* LETS BE CLEAR: soap is lame and the antithesis of node. However, sometimes you've got what you've got.
 * Create functions at runtime with optional param checking
-* Not quite funtional yet
 * Contact: jmoyers@gmail.com
-* Focusing on a specific wsdl for now (with complex types)
+* Adding incremental support for complex types. Still untested: datetimes, deeply nested complex types
 * TODO:
     1. local file caching for wsdl,
     2. loading wsdl from fs,
     3. support per operation soapAction,
-    4. http basic auth,
-    5. printing the signature of a given method after parse
-    6. testing on a wsdl other than the one I'm using ;-)
-
-Current status: Basically working with the one wsdl sample I'm using. Next steps are to standardize on restler, add a signature fetch and display function, add http basic auth support
-
+    4. http basic auth, CHECK
+    5. printing the signature of a given method after parse, CHECK
+    6. testing on a wsdl other than the one I'm using, CHECK
 
 API Goals
 ----------
