@@ -2,21 +2,6 @@
 
 ## Currently unmaintained -- use at your own risk. This was literally built before npm, package.json and the rest were popular.
 
-Info
-----------
-
-* LETS BE CLEAR: soap is lame and the antithesis of node. However, sometimes you've got what you've got.
-* Create functions at runtime with optional param checking
-* Contact: jmoyers@gmail.com
-* Adding incremental support for complex types. Still untested: datetimes, deeply nested complex types
-* TODO:
-    1. local file caching for wsdl,
-    2. loading wsdl from fs,
-    3. support per operation soapAction,
-    4. http basic auth, CHECK
-    5. printing the signature of a given method after parse, CHECK
-    6. testing on a wsdl other than the one I'm using, CHECK
-
 API Goals
 ----------
 
@@ -105,11 +90,3 @@ c.username                    c.validateMultiPurchase       c.validatePurchase  
 >
 
 </pre>
-
-
-Dependencies
--------------
-
-* [ry/node](http://github.com/ry/node)
-* [polotek/libxmljs](http://github.com/polotek/libxmljs)
-* [danwrong/restler](http://github.com/danwrong/Restler/)
