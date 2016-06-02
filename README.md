@@ -1,6 +1,4 @@
-# A client to interact with soap web services in node.js
-
-## Currently unmaintained -- use at your own risk. This was literally built before npm, package.json and the rest were popular.
+Currently unmaintained -- use at your own risk. This was literally built before npm, package.json and the rest were popular.
 
 API Goals
 ----------
